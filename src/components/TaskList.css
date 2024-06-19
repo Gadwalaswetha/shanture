@@ -1,0 +1,50 @@
+/* frontend/src/components/TaskList.css */
+
+.task-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.shanture-logo {
+    width: 150px; /* Adjust the width as needed */
+    margin-bottom: 20px;
+}
+
+.task-input {
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.task-input button {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+li button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
